@@ -30,7 +30,7 @@
 
 ⚙️ SEGUINTES COMANDOS - CRIAÇÃO FRONTEND E RUN
 1- CRIAR PASTA FRONTEND
-2- ARQUIVOS - (init.sql & Dockerfile)
+2- ARQUIVOS - (script.js & style.css & index.html & Dockerfile)
 3- CMD TERMINAL -  (docker build -t imagem-frontend-loja ./frontend)
 4- CMD TERMINAL - (docker run -d --name frontend-container -p 8080:80 imagem-frontend-loja)
 
