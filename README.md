@@ -3,7 +3,7 @@
 ---
 
 ```bash
-🗄️ SEGUINTES COMANDOS - CRIAÇÃO IMAGEM DB E RUN
+⚙️ SEGUINTES COMANDOS - CRIAÇÃO IMAGEM DB E RUN
 
 1- CRIAR PASTA CADPROD
 2- CRIAR PASTA DB
@@ -28,7 +28,7 @@
 11- CMD TERMINAL - (docker run -d --name backend-container -p 3000:3000 imagem-backend-loja)
 
 
-💻 SEGUINTES COMANDOS - CRIAÇÃO FRONTEND E RUN
+⚙️ SEGUINTES COMANDOS - CRIAÇÃO FRONTEND E RUN
 
 1- CMD TERMINAL -  (docker build -t imagem-frontend-loja ./frontend)
 2- CMD TERMINAL - (docker run -d --name frontend-container -p 8080:80 imagem-frontend-loja)
