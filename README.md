@@ -8,7 +8,7 @@
 1- CRIAR PASTA CADPROD
 2- CRIAR PASTA DB
 3- ARQUIVOS - (init.sql & Dockerfile)
-4- CMD TERMINAL - (docker build -t imagem-mysql-loja ./bd)
+4- CMD TERMINAL - (docker build -t imagem-mysql-loja ./db)
 5- CMD TERMINAL - (docker run -d --name mysql-container -p 3333:3333 imagem-mysql-loja)
 6- CMD TERMINAL - (docker exec -it mysql-container mysql -uroot -proot) - OPCIONAL EXECUÇÃO DO SQL
 
@@ -20,7 +20,7 @@
 3- CMD TERMINAL - (cd backend)
 4- CMD TERMINAL - (npm init -y)
 5- CMD TERMINAL - (npm install express)
-6- CMD TERMINAL - (npm install sql2)
+6- CMD TERMINAL - (npm install mysql2)
 7- CMD TERMINAL - (npm install cors)
 8- INSERIR NO PACKAGE.JSON ("start": "node index.js") ABAIXO DE TEST
 9- EXCLUIR NODE_MODULES DA PASTA BACKEND
