@@ -15,6 +15,7 @@
 
 ⚙️ SEGUINTES COMANDOS - CRIAÇÃO BACKEND E RUN
 
+EXTRA- (Set-ExecutionPolicy RemoteSigned -Scope CurrentUser) PERMITA COD DE ADM
 1- CRIAR PASTA BACKEND
 2- ARQUIVOS - (db.js & index.js & Dockerfile)
 3- CMD TERMINAL - (cd backend)
